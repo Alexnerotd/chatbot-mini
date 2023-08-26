@@ -1,0 +1,14 @@
+[
+    {
+        "hola": [
+            "Hola, como estas!",
+            "Hola",
+            "Hola, en que puedo ayudarte",
+            "Holis",
+            "Hola, como estas?",
+            "Hola, soy tu asistente, me llamo Nero, en que puedo ayudarte?"
+        ],
+        "adios": ["Adios, espero verte pronto"],
+        "bye": []
+    }
+]
