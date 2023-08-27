@@ -27,8 +27,12 @@ class Bot:
 
         with mic as source:
             listen = rec.listen(source)
-            text = rec.recognize_google(listen)
-            return text
+            try:
+                text = rec.recognize_google(listen)
+                return text
+            except sr.UnknownValueError as e:
+                raise sr.UnknownValueError("Problema con la entrada de audio, al no reconocer la palabra") from e
+
 
     def load_json(self, filename):
         with open(filename, 'r') as file:

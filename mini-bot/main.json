@@ -8,7 +8,16 @@
             "Hola, como estas?",
             "Hola, soy tu asistente, me llamo Nero, en que puedo ayudarte?"
         ],
-        "adios": ["Adios, espero verte pronto"],
-        "bye": []
+        "adios": [
+            "Adios, espero verte pronto"
+        ],
+        "bye": [],
+        "como estas": [
+            "Estoy bastante bien, y tu?",
+            "Estoy un poco mal, pero bueno, asi es la vida, y tu?"
+        ],
+        "ideas": [],
+        "call julia": [],
+        "tablet": []
     }
 ]
